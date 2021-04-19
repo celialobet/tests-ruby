@@ -3,9 +3,13 @@ def echo
 end
 
 def bye
-    echo "bye"
+  echo "bye"
 end
 
 def shout
-    "hello".upcase
+  return "hello".upcase
+end
+
+def repeat(string)
+  return string * 3
 end
