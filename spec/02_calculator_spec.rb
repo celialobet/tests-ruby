@@ -48,9 +48,12 @@ describe "#multiply" do
   end
 
   it "multiplies two other numbers"
+    expect(multiply(8, 9)).to eq(72)
+  end
 
   it "multiplies two other numbers, one of them being 0"
-
+    expect(multiply(0, 56)).to eq(0)
+  end
 end
 
 describe "#power" do
