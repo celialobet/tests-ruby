@@ -47,11 +47,11 @@ describe "#multiply" do
     expect(multiply(3, 4)).to eq(12)
   end
 
-  it "multiplies two other numbers"
+  it "multiplies two other numbers" do
     expect(multiply(8, 9)).to eq(72)
   end
 
-  it "multiplies two other numbers, one of them being 0"
+  it "multiplies two other numbers,   one of them being 0" do
     expect(multiply(0, 56)).to eq(0)
   end
 end
@@ -62,7 +62,9 @@ end
 
 # http://en.wikipedia.org/wiki/Factorial
 describe "#factorial" do
-  it "computes the factorial of 0"
+  it "computes the factorial of 0" do
+    expect(factorial(0)).to eq(1)
+  end
   it "computes the factorial of 1"
   it "computes the factorial of 2"
   it "computes the factorial of 5"
